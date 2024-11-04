@@ -15,6 +15,10 @@ public class AzureApplication {
 	public String data1(){
 		return "This is my first application on azure1 !";
 	}
+	@GetMapping("/test")
+	public String data2(){
+		return "This is my first application on azure2 !";
+	}
 
 	public static void main(String[] args) {
 		SpringApplication.run(AzureApplication.class, args);
